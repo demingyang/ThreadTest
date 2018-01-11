@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9e987d8-62bb-494e-8d59-f218f4a698d7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ThreadTest/chapter5/LockUseCase.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ThreadTest/chapter5/Mutex.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -841,7 +839,7 @@
       <workItem from="1515402707785" duration="3020000" />
       <workItem from="1515459321926" duration="410000" />
       <workItem from="1515547218689" duration="7147000" />
-      <workItem from="1515633692599" duration="3894000" />
+      <workItem from="1515633692599" duration="4510000" />
     </task>
     <task id="LOCAL-00001" summary="，">
       <created>1515405461575</created>
@@ -850,7 +848,14 @@
       <option name="project" value="LOCAL" />
       <updated>1515405461575</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="，">
+      <created>1515649176245</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1515649176245</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -886,7 +891,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72648000" />
+    <option name="totallyTimeSpent" value="73264000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1263,6 +1268,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="215">
           <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
