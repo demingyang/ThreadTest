@@ -1,3 +1,4 @@
+/*
 package ThreadTest.chapter5;
 
 import java.util.concurrent.TimeUnit;
@@ -5,9 +6,11 @@ import java.util.concurrent.locks.AbstractQueuedSynchronizer;
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
 
+*/
 /**
  * Created by YangDeming on 2018/1/10.
- */
+ *//*
+
 public class Mutex implements Lock {
     //静态内部类，自定义同步器
     private static class Sync extends AbstractQueuedSynchronizer {
@@ -80,3 +83,4 @@ public class Mutex implements Lock {
 
 
 }
+*/
