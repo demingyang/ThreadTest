@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9e987d8-62bb-494e-8d59-f218f4a698d7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ThreadTest/chapter10/FutureTaskTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ThreadTest/chapter10/H.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ThreadTest/chapter11/DispatchMessageTask.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ThreadTest/chapter11/MsgQueueManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/myTest/Factory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/myTest/Part.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/chapter1/Test.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ThreadTest/chapter4/ConnectionTest/ConnectionDriver.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ThreadTest/chapter4/ConnectionTest/ConnectionPool.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ThreadTest/chapter4/ConnectionTest/ConnectionPoolTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ThreadTest/chapter10/H.java" afterPath="$PROJECT_DIR$/src/ThreadTest/chapter10/H.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ThreadTest/chapter5/Mutex.java" afterPath="$PROJECT_DIR$/src/ThreadTest/chapter5/Mutex.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,136 +20,75 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MsgQueueManager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ThreadTest/chapter11/MsgQueueManager.java">
+      <file leaf-file-name="ConnectionPool.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ThreadTest/chapter4/ConnectionTest/ConnectionPool.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+            <state relative-caret-position="1000">
+              <caret line="41" column="41" lean-forward="false" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
               <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#388#389#0" expanded="false" />
-                <element signature="e#453#454#0" expanded="false" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DispatchMessageTask.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ThreadTest/chapter11/DispatchMessageTask.java">
+      <file leaf-file-name="ConnectionPoolTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ThreadTest/chapter4/ConnectionTest/ConnectionPoolTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="17" column="20" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+            <state relative-caret-position="375">
+              <caret line="27" column="26" lean-forward="false" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
               <folding>
-                <element signature="e#0#1645#0" expanded="false" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="H.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Mutex.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ThreadTest/chapter5/Mutex.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="385">
+              <caret line="48" column="41" lean-forward="true" selection-start-line="48" selection-start-column="41" selection-end-line="48" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#472#473#0" expanded="true" />
+                <element signature="e#518#519#0" expanded="true" />
+                <element signature="e#1151#1152#0" expanded="true" />
+                <element signature="e#1203#1204#0" expanded="true" />
+                <element signature="e#1348#1349#0" expanded="true" />
+                <element signature="e#1379#1380#0" expanded="true" />
+                <element signature="e#1411#1412#0" expanded="true" />
+                <element signature="e#1452#1453#0" expanded="true" />
+                <element signature="e#1480#1481#0" expanded="true" />
+                <element signature="e#1511#1512#0" expanded="true" />
+                <element signature="e#1550#1551#0" expanded="true" />
+                <element signature="e#1592#1593#0" expanded="true" />
+                <element signature="e#1625#1626#0" expanded="true" />
+                <element signature="e#1672#1673#0" expanded="true" />
+                <element signature="e#1713#1714#0" expanded="true" />
+                <element signature="e#1759#1760#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="H.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ThreadTest/chapter10/H.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+            <state relative-caret-position="525">
+              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Join.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ThreadTest/chapter4/test/Join.java">
+      <file leaf-file-name="ConnectionDriver.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ThreadTest/chapter4/ConnectionTest/ConnectionDriver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-              <folding>
-                <element signature="e#745#746#0" expanded="false" />
-                <element signature="e#789#790#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Piped.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ThreadTest/chapter4/test/Piped.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#844#845#0" expanded="false" />
-                <element signature="e#880#881#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Profiler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ThreadTest/chapter4/test/Profiler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-              <folding>
-                <element signature="e#336#337#0" expanded="false" />
-                <element signature="e#393#394#0" expanded="false" />
-                <element signature="e#440#441#0" expanded="false" />
-                <element signature="e#504#505#0" expanded="false" />
-                <element signature="e#542#543#0" expanded="false" />
-                <element signature="e#616#617#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Human.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/chapter1/Human.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/chapter1/Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="425">
+              <caret line="21" column="34" lean-forward="false" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Factory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/myTest/Factory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Part.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/myTest/Part.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#310#311#0" expanded="true" />
-                <element signature="e#357#358#0" expanded="true" />
-                <element signature="e#505#506#0" expanded="true" />
-                <element signature="e#551#552#0" expanded="true" />
-                <element signature="e#719#720#0" expanded="true" />
-                <element signature="e#763#764#0" expanded="true" />
-                <element signature="e#921#922#0" expanded="true" />
-                <element signature="e#971#972#0" expanded="true" />
-                <element signature="e#1071#1096#0" expanded="true" />
-                <element signature="e#1562#1563#0" expanded="true" />
-                <element signature="e#1611#1612#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -195,9 +132,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/chapter3/TestLambda.java" />
-        <option value="$PROJECT_DIR$/src/test/chapter5/Trade.java" />
-        <option value="$PROJECT_DIR$/src/test/chapter5/Trader.java" />
         <option value="$PROJECT_DIR$/src/test/chapter5/Transaction.java" />
         <option value="$PROJECT_DIR$/src/test/chapter5/_test.java" />
         <option value="$PROJECT_DIR$/src/test/chapter5/_Test.java" />
@@ -229,7 +163,6 @@
         <option value="$PROJECT_DIR$/src/ThreadTest/chapter5/LockUseCase.java" />
         <option value="$PROJECT_DIR$/src/ThreadTest/chapter5/TwinsLockTest.java" />
         <option value="$PROJECT_DIR$/src/ThreadTest/chapter5/TwinsLock.java" />
-        <option value="$PROJECT_DIR$/src/ThreadTest/chapter5/Mutex.java" />
         <option value="$PROJECT_DIR$/src/ThreadTest/chapter5/FairAndUnfairTest.java" />
         <option value="$PROJECT_DIR$/src/ThreadTest/chapter5/Cache.java" />
         <option value="$PROJECT_DIR$/src/ThreadTest/chapter6/HashMapTest.java" />
@@ -241,11 +174,15 @@
         <option value="$PROJECT_DIR$/src/ThreadTest/chapter8/ExchangeTest.java" />
         <option value="$PROJECT_DIR$/src/ThreadTest/chapter10/FutureTaskTest.java" />
         <option value="$PROJECT_DIR$/src/ThreadTest/chapter11/MsgQueueManager.java" />
-        <option value="$PROJECT_DIR$/src/ThreadTest/chapter10/H.java" />
         <option value="$PROJECT_DIR$/src/ThreadTest/chapter11/DispatchMessageTask.java" />
         <option value="$PROJECT_DIR$/src/test/chapter1/Test.java" />
         <option value="$PROJECT_DIR$/src/myTest/Factotry.java" />
         <option value="$PROJECT_DIR$/src/myTest/Part.java" />
+        <option value="$PROJECT_DIR$/src/ThreadTest/chapter10/H.java" />
+        <option value="$PROJECT_DIR$/src/ThreadTest/chapter4/ConnectionTest/ConnectionDriver.java" />
+        <option value="$PROJECT_DIR$/src/ThreadTest/chapter4/ConnectionTest/ConnectionPool.java" />
+        <option value="$PROJECT_DIR$/src/ThreadTest/chapter4/ConnectionTest/ConnectionPoolTest.java" />
+        <option value="$PROJECT_DIR$/src/ThreadTest/chapter5/Mutex.java" />
       </list>
     </option>
   </component>
@@ -277,6 +214,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -317,13 +255,56 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="myTest" />
+              <option name="myItemId" value="ThreadTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="codeTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="codeTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ThreadTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chapter5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="codeTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="codeTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ThreadTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chapter4" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
@@ -365,27 +346,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test">
-    <configuration default="false" name="CyclicBarrierTest3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="ThreadTest.chapter8.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="ThreadTest.chapter8.CyclicBarrierTest3" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="codeTest" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.ConnectionPoolTest">
     <configuration default="false" name="SemaphoreTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -454,6 +415,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="test.chapter1.Test" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="codeTest" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ConnectionPoolTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ThreadTest.chapter4.ConnectionTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="ThreadTest.chapter4.ConnectionTest.ConnectionPoolTest" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -854,19 +835,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.CyclicBarrierTest3" />
-      <item index="1" class="java.lang.String" itemvalue="Application.SemaphoreTest" />
-      <item index="2" class="java.lang.String" itemvalue="Application.ExchangeTest" />
-      <item index="3" class="java.lang.String" itemvalue="Application.H" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Test" />
+      <item index="0" class="java.lang.String" itemvalue="Application.SemaphoreTest" />
+      <item index="1" class="java.lang.String" itemvalue="Application.ExchangeTest" />
+      <item index="2" class="java.lang.String" itemvalue="Application.H" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Test" />
+      <item index="4" class="java.lang.String" itemvalue="Application.ConnectionPoolTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Test" />
+        <item index="0" class="java.lang.String" itemvalue="Application.ConnectionPoolTest" />
         <item index="1" class="java.lang.String" itemvalue="Application.H" />
-        <item index="2" class="java.lang.String" itemvalue="Application.ExchangeTest" />
-        <item index="3" class="java.lang.String" itemvalue="Application.SemaphoreTest" />
-        <item index="4" class="java.lang.String" itemvalue="Application.CyclicBarrierTest3" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Test" />
+        <item index="3" class="java.lang.String" itemvalue="Application.ExchangeTest" />
+        <item index="4" class="java.lang.String" itemvalue="Application.SemaphoreTest" />
       </list>
     </recent_temporary>
   </component>
@@ -901,7 +882,12 @@
       <workItem from="1516960256542" duration="1658000" />
       <workItem from="1517381650979" duration="1145000" />
       <workItem from="1517980225495" duration="57000" />
-      <workItem from="1519957695417" duration="1586000" />
+      <workItem from="1519957695417" duration="4802000" />
+      <workItem from="1520930560695" duration="60000" />
+      <workItem from="1524040302920" duration="1083000" />
+      <workItem from="1524104267336" duration="928000" />
+      <workItem from="1524533980779" duration="3819000" />
+      <workItem from="1524624305240" duration="351000" />
     </task>
     <task id="LOCAL-00001" summary="，">
       <created>1515405461575</created>
@@ -931,7 +917,14 @@
       <option name="project" value="LOCAL" />
       <updated>1516094030759</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="泛型练习">
+      <created>1519959310865</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1519959310865</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -967,7 +960,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100227000" />
+    <option name="totallyTimeSpent" value="109684000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -987,15 +980,15 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.273743" sideWeight="0.5074627" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36648044" sideWeight="0.4936034" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46368715" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27150837" sideWeight="0.49253732" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16577825" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17377399" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1051,7 +1044,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="，" />
-    <option name="LAST_COMMIT_MESSAGE" value="，" />
+    <MESSAGE value="泛型练习" />
+    <option name="LAST_COMMIT_MESSAGE" value="泛型练习" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1064,27 +1058,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/worksoft/Java/jdk1.8.0_131/src.zip!/java/util/function/Predicate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="48" column="12" lean-forward="false" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/chapter5/_Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="591">
-          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/chapter6/PrimeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="30" lean-forward="false" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/chapter7/ForkJoinSumCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="925">
@@ -1227,31 +1200,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/worksoft/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/locks/AbstractOwnableSynchronizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="975">
-          <caret line="72" column="25" lean-forward="false" selection-start-line="72" selection-start-column="25" selection-end-line="72" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/worksoft/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36300">
-          <caret line="1511" column="39" lean-forward="false" selection-start-line="1511" selection-start-column="39" selection-end-line="1511" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/worksoft/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4925">
           <caret line="243" column="67" lean-forward="false" selection-start-line="243" selection-start-column="67" selection-end-line="243" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ThreadTest/chapter5/Mutex.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="26" column="13" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1332,34 +1284,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ThreadTest/chapter11/MsgQueueManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#388#389#0" expanded="false" />
-            <element signature="e#453#454#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ThreadTest/chapter10/H.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ThreadTest/chapter4/test/Join.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="e#745#746#0" expanded="false" />
-            <element signature="e#789#790#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1367,11 +1295,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#844#845#0" expanded="false" />
-            <element signature="e#880#881#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1379,24 +1302,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="e#336#337#0" expanded="false" />
-            <element signature="e#393#394#0" expanded="false" />
-            <element signature="e#440#441#0" expanded="false" />
-            <element signature="e#504#505#0" expanded="false" />
-            <element signature="e#542#543#0" expanded="false" />
-            <element signature="e#616#617#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ThreadTest/chapter11/DispatchMessageTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="17" column="20" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#1645#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1404,25 +1309,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="19" lean-forward="false" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TClass.java" />
     <entry file="file://$PROJECT_DIR$/src/test/chapter1/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
+        <state relative-caret-position="250">
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1430,28 +1324,113 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/myTest/Part.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+        <state relative-caret-position="425">
+          <caret line="23" column="1" lean-forward="false" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ThreadTest/chapter11/DispatchMessageTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="17" column="20" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ThreadTest/chapter11/MsgQueueManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ThreadTest/chapter4/ConnectionTest/ConnectionDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="21" column="34" lean-forward="false" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#310#311#0" expanded="true" />
-            <element signature="e#357#358#0" expanded="true" />
-            <element signature="e#505#506#0" expanded="true" />
-            <element signature="e#551#552#0" expanded="true" />
-            <element signature="e#719#720#0" expanded="true" />
-            <element signature="e#763#764#0" expanded="true" />
-            <element signature="e#921#922#0" expanded="true" />
-            <element signature="e#971#972#0" expanded="true" />
-            <element signature="e#1071#1096#0" expanded="true" />
-            <element signature="e#1562#1563#0" expanded="true" />
-            <element signature="e#1611#1612#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ThreadTest/chapter4/ConnectionTest/ConnectionPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1000">
+          <caret line="41" column="41" lean-forward="false" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ThreadTest/chapter4/ConnectionTest/ConnectionPoolTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="27" column="26" lean-forward="false" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/worksoft/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/locks/AbstractOwnableSynchronizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="72" column="25" lean-forward="false" selection-start-line="72" selection-start-column="25" selection-end-line="72" selection-end-column="25" />
+          <folding>
+            <element signature="e#1663#1664#0" expanded="false" />
+            <element signature="e#1708#1709#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/worksoft/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="1360" column="25" lean-forward="false" selection-start-line="1360" selection-start-column="25" selection-end-line="1360" selection-end-column="25" />
+          <folding>
+            <element signature="e#53988#53989#0" expanded="true" />
+            <element signature="e#54023#54024#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ThreadTest/chapter5/Mutex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="48" column="41" lean-forward="true" selection-start-line="48" selection-start-column="41" selection-end-line="48" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#472#473#0" expanded="true" />
+            <element signature="e#518#519#0" expanded="true" />
+            <element signature="e#1151#1152#0" expanded="true" />
+            <element signature="e#1203#1204#0" expanded="true" />
+            <element signature="e#1348#1349#0" expanded="true" />
+            <element signature="e#1379#1380#0" expanded="true" />
+            <element signature="e#1411#1412#0" expanded="true" />
+            <element signature="e#1452#1453#0" expanded="true" />
+            <element signature="e#1480#1481#0" expanded="true" />
+            <element signature="e#1511#1512#0" expanded="true" />
+            <element signature="e#1550#1551#0" expanded="true" />
+            <element signature="e#1592#1593#0" expanded="true" />
+            <element signature="e#1625#1626#0" expanded="true" />
+            <element signature="e#1672#1673#0" expanded="true" />
+            <element signature="e#1713#1714#0" expanded="true" />
+            <element signature="e#1759#1760#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ThreadTest/chapter10/H.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
