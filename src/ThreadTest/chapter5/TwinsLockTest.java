@@ -29,7 +29,7 @@ public class TwinsLockTest {
         // 启动 10 个 线程
         for (int i = 0; i < 10; i++) {
             Worker w = new Worker();
-            w.setDaemon(true);
+            w.setDaemon(true);//守护线程
             w.start();
         }
         // 每隔 1 秒 换行

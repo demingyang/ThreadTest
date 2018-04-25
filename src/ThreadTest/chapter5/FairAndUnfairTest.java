@@ -28,6 +28,11 @@ public class FairAndUnfairTest {
 
     private void testLock(Lock lock) {
         // 启动 5 个 Job
+        for (int i = 0; i < 5; i++) {
+            Job j = new Job(lock);
+            j.setDaemon(true);//守护线程
+            j.start();
+        }
     }
 
     private static class Job extends Thread {
@@ -39,6 +44,7 @@ public class FairAndUnfairTest {
 
         public void run() {
             // 连续 2 次 打印 当前 的 Thread 和 等待 队列 中的 Thread（ 略）
+            System.out.println();
         }
     }
 

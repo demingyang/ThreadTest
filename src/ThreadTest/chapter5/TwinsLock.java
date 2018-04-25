@@ -9,7 +9,7 @@ import java.util.concurrent.locks.Lock;
  * Created by YangDeming on 2018/1/11.
  */
 public class TwinsLock implements Lock {
-    private final Sync sync = new Sync(3);
+    private final Sync sync = new Sync(2);
 
     private static final class Sync extends AbstractQueuedSynchronizer {
         Sync(int count) {
